@@ -26,4 +26,25 @@ class TataUsahaController extends Controller
     {
         return view('tata_usaha.detail_data');
     }
+
+    public function ubahpw()
+    {
+        return view('tata_usaha.ubah_password');
+    }
+
+    public function edit_ket_siswa()
+    {
+        return view('tata_usaha.edit_keterangan_siswa');
+    }
+
+    public function edit_ket_ortu()
+    {
+        return view('tata_usaha.edit_keterangan_ortu');
+    }
+    
+    public function edit_ket_wali()
+    {
+        return view('tata_usaha.edit_keterangan_wali');
+    }
+
 }

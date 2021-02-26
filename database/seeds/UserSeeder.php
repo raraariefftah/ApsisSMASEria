@@ -1,0 +1,28 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
+
+class UserSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+         DB::table('users')->insert([
+            [
+                'nama' => 'Admin',
+                'email' => 'admin@gmail.com',
+                'password' => Hash::make('12345678'),
+                'role' => 'admin',
+                'alamat' => 'Jl. Penguin raya 3',
+                'no_hp' => '08126565400',
+
+            ],
+        ]);
+    }
+}

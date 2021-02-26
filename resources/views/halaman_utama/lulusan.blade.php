@@ -19,74 +19,80 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
 
-<body style="background-color:  rgb(158, 206, 165);">
+<body style="background-color:  rgb(179, 215, 247);">
     <!-- Site wrapper -->
     <div class="wrapper">
         <!-- Navbar -->
         @include('partials.navbar_hu')
 
         <!-- Lulusan -->
-        <section id="lulusan" class="lulusan pb-4 pt-4">
+        <section id="lulusan" class="lulusan mb-5 mt-5 pb-1">
             <div class="container">
-                <div class="row ">
+                <div class="row mb-2 ">
                     <div class="col text-center">
-                        <h3><strong>Siswa-Siswi SMA ERIA Lulus PTN Jalur SNMPTN</strong></h2>
-                        <h3><strong>Tahun Akademik 2020/2021</strong></h2>
+                        <h4><strong>Siswa-Siswi SMA SWASTA ERIA Lulus PTN Jalur SNMPTN</strong></h4>
+                        <h4><strong>Tahun Akademik 2020/2021</strong></h4>
                         <hr>
                     </div>
                 </div>
 
-                <div class="card mt-2">
+                {{-- <div class="card mt-2">
                     <div class="card-body">
                         <h4 class="text-center" style="font-family:  poppins">UNIVERSITAS SUMATERA UTARA</h4>
                     </div>
-                </div>
+                </div> --}}
 
                 <div class="row text-center">
                     <div class="col-md">
-                        <div class="card" ">
-                            <img src=" img/raraa.jpg" class="card-img-top pt-4" alt="gambar"
-                            style="width: 50%; display: block; margin-left: auto; margin-right: auto; ">
+                        <div class="card">
+                            <img src="/img/raraa.jpg" class="card-img-top pt-4" alt="gambar"
+                                style="width: 50%; display: block; margin-left: auto; margin-right: auto; ">
                             <div class="card-body">
                                 <h5 style="font-weight: bold">Rara Ariefftah</h5>
-                                <p>JURUSAN</p>
+                                <h5 style="font-weight: bold">Universitas Diponegoro</h5>
+                                <p>Informatika</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md">
-                        <div class="card" ">
-                            <img src=" img/raraa.jpg" class="card-img-top pt-4" alt="gambar"
-                            style="width: 50%; display: block; margin-left: auto; margin-right: auto;">
+                        <div class="card">
+                            <img src="/img/raraa.jpg" class="card-img-top pt-4" alt="gambar"
+                                style="width: 50%; display: block; margin-left: auto; margin-right: auto;">
                             <div class="card-body">
                                 <h5 style="font-weight: bold">Rara Ariefftah</h5>
-                                <p>JURUSAN</p>
+                                <h5 style="font-weight: bold">Universitas Diponegoro</h5>
+                                <p>Informatika</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md">
-                        <div class="card" ">
-                            <img src=" img/raraa.jpg" class="card-img-top pt-4" alt="gambar"
-                            style="width: 50%; display: block; margin-left: auto; margin-right: auto; ">
+                        <div class="card">
+                            <img src="/img/raraa.jpg" class="card-img-top pt-4" alt="gambar"
+                                style="width: 50%; display: block; margin-left: auto; margin-right: auto; ">
                             <div class="card-body">
                                 <h5 style="font-weight: bold">Rara Ariefftah</h5>
-                                <p>JURUSAN</p>
+                                <h5 style="font-weight: bold">Universitas Diponegoro</h5>
+                                <p>Informatika</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md">
-                        <div class="card" ">
-                            <img src=" img/raraa.jpg" class="card-img-top pt-4" alt="gambar"
-                            style="width: 50%; display: block; margin-left: auto; margin-right: auto;">
+                        <div class="card">
+                            <img src="/img/raraa.jpg" class="card-img-top pt-4" alt="gambar"
+                                style="width: 50%; display: block; margin-left: auto; margin-right: auto;">
                             <div class="card-body">
                                 <h5 style="font-weight: bold">Rara Ariefftah</h5>
-                                <p>JURUSAN</p>
+                                <h5 style="font-weight: bold">Universitas Diponegoro</h5>
+                                <p>Informatika</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                
             </div>
         </section>
 

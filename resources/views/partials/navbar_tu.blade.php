@@ -1,6 +1,6 @@
     <!-- Topbar -->
     <nav class="main-header navbar navbar-expand navbar-success navbar-dark topbar static-top shadow"
-        style="background-color: rgb(47, 116, 59)">
+        style="background-color: rgb(28, 47, 97)">
 
         <!-- Left navbar links -->
         <ul class="navbar-nav">
@@ -11,9 +11,9 @@
 
         <ul class="navbar-nav ml-auto">
             <!-- Nav Item - User Information -->
-            <li class="nav-item ">
+            {{-- <li class="nav-item ">
                 <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
-            </li>
+            </li> --}}
             <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false" style="font-color:white;">
@@ -21,7 +21,7 @@
                 </a>
                 <!-- Dropdown - User Information -->
                 <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                    <a class="dropdown-item" href="{{url('/manager/ubah_password/')}}">
+                    <a class="dropdown-item" href="/tata_usaha/ubah_password">
                         <i class="fas fa-key fa-sm fa-fw mr-2 text-gray-400"></i>
                         Ubah Password
                     </a>

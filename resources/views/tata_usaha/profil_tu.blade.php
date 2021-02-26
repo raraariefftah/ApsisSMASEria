@@ -27,9 +27,9 @@
                         <div class="card-body">
                             {{-- 1 --}}
                             <div class="form-group row">
-                                <label for="inputNama" class="col-sm-3 col-form-label">1. Nama Lengkap</label>
+                                <label for="inputNama" class="col-sm-3 col-form-label">1. Nama </label>
                                 <div class=" col-sm-5">
-                                    <input type="text" class="form-control" id="inputNama" placeholder="Nama Lengkap">
+                                    <input type="text" class="form-control" id="inputNama" placeholder="Nama ">
                                 </div>
                             </div>
 
@@ -68,8 +68,9 @@
                         </div>
                         <!-- /.card-body -->
                         <div class="card-footer">
-                            <button type="submit" class="btn btn-success mr-2">Ubah Profil</button>
                             <a href="/pendaftaran3" class="btn btn-danger mr-2">Kembali</a>
+                            <button type="submit" class="btn btn-success mr-2">Ubah Profil</button>
+                            
                             {{-- <button type="submit" class="btn btn-success mr-2" onclick="return confirm('Apakah kamu yakin?')">Ubah</button> --}}
                             {{-- <a href="/home" class="btn btn-success">Selesai</a> --}}
                         </div>

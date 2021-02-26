@@ -14,20 +14,21 @@
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="{{ asset('/style/dist/css/adminlte.min.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('/style/dist/css/new.css') }}"> --}}
+    <link rel="stylesheet" href="{{ asset('/style/dist/css/new.css') }}">
+    <link rel="stylesheet" href="{{ asset('/style/dist/css/hu.css') }}">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
 
-<body style="background-color: rgb(158, 206, 165);">
+<body style="background-color: rgb(179, 215, 247);">
     <!-- Site wrapper -->
     <div class="wrapper">
         <!-- Navbar -->
         @include('partials.navbar_hu')
 
-        <section class="content mt-4 mb-3">
+        <section class="content mt-5 mb-3">
             <div class="container text-center">
-                <h3 style="font-weight: bold;">PROFIL SEKOLAH</h3>
+                <h4 style="font-weight: bold;">PROFIL SEKOLAH</h4>
                 <hr>
             </div>
         </section>
@@ -40,19 +41,16 @@
                     <div class="col-md">
                         <!-- general form elements -->
                         <div class="card card-light">
-                            {{-- <div class="card-header">
-                                <h3 class="card-title">D. KETERANGAN WALI</h3>
-                            </div> --}}
-                            <!-- /.card-header -->
                             <!-- form start -->
                             <form class="form-horizontal">
                                 <div class="card-body">
-                                    <div class="form-group row pt-3 pl-3">
-                                        <div class="col-md-5 pt-2 mr-5 ">
+                                    <div class="form-group row pt-3 pl-3 pb-1">
+                                        <div class="col-md-5 pt-3 mr-5 ">
                                             <img src="/img/eria.jpg" class="rounded" style="max-width: 450px;"
                                                 alt="Sekolaheria">
                                         </div>
-                                        <div class="col-md-5">
+
+                                        <div class="col-md-5 mt-2">
                                             <table>
                                                 <tr>
                                                     <td> Nama Sekolah </td>

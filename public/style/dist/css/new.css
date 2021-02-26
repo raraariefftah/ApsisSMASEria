@@ -1,32 +1,63 @@
 .carousel-item {
     height: 60vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
+    min-height: 500px;
+    /* background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .carousel-item::before {
     content: "";
     display: block;
     position: absolute;
-    top: 0;
+    /* top: 0;
     left: 0;
     bottom: 0;
-    right: 0;
+    right: 0; */
     /* background: rgb(228, 228, 228);
     opacity: 0.7; */
 }
 
-.carousel-caption {
-    bottom: 150px;
+#satu {
+    bottom: 165px;
+    /* height: 60vh; */
 }
 
-.carousel-caption h5 {
+#dua {
+    /* height: 60vh; */
+    bottom: 40px;
+}
+
+#tiga {
+    /* height: 60vh; */
+    bottom: 50px;
+}
+
+.carousel-caption p {
+    font-family: "Nunito Sans", Arial;
+    font-size: 18px;
+    color: black;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 2px; */
+    margin-top: 25px;
+}
+
+.carousel-caption li {
+    font-family: "Nunito Sans", Arial;
+    font-size: 18px;
+    color: black;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 2px; */
+    margin-top: 20px;
+}
+
+.carousel-caption h4 {
     font-family: poppins;
-    font-size: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 25px;
@@ -35,9 +66,84 @@
 .carousel-caption p {
     width: 75%;
     margin: auto;
-    font-size: 18px;
-    line-height: 1.9;
+    /* font-size: 17px; */
+    line-height: 29px;
 }
+
+.carousel-caption li {
+    width: 90%;
+    margin: auto;
+    /* font-size: 17px; */
+    line-height: 29px;
+}
+
+.carousel-control-prev-icon {
+    color: black;
+
+}
+
+h4 {
+    font-size: 25px;
+    font-family: poppins;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: "Nunito Sans",
+        Arial;
+    font-size: 17px;
+    /* letter-spacing: 1px; */
+}
+
+h5 {
+    font-size: 17px;
+    font-family: "Nunito Sans",
+        Arial;
+}
+
+#kata {
+    font-family: "Nunito Sans",
+        Arial;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+#navbar {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+td {
+    font-family: "Nunito Sans",
+        Arial;
+}
+
+#footer h3 {
+    font-size: 25px;
+    font-family: "Nunito Sans",
+        Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+}
+
+#footer h5 {
+    /* font-size: 12px;
+    font-family: "Nunito Sans",
+        Arial;
+    text-transform: uppercase;
+    font-weight: bold; */
+    letter-spacing: 1px;
+}
+
+
+
+/* 
+body {
+    background-color: rgb(135, 191, 236;
+    } */
 
 /* .navbar-light .navbar-brand {
     color: #fff;

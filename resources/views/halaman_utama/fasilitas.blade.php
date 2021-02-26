@@ -15,22 +15,23 @@
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="{{ asset('/style/dist/css/adminlte.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/style/dist/css/new.css') }}">
+    <link rel="stylesheet" href="{{ asset('/style/dist/css/hu.css') }}">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
 
-<body style="background-color:  rgb(158, 206, 165);">
+<body style="background-color:  rgb(179, 215, 247);">
     <!-- Site wrapper -->
     <div class="wrapper">
         <!-- Navbar -->
         @include('partials.navbar_hu')
 
         <!-- fasilitas -->
-        <section id="fasilitas" class="fasilitas mb-5 mt-4 pb-1">
-            <div class="container">
+        <section id="fasilitas" class="fasilitas  mb-3 mt-5 pb-5 ">
+            <div class="container pb-5">
                 <div class="row mb-2">
                     <div class="col text-center">
-                        <h3 style="font-weight: bold;">FASILITAS</h3>
+                        <h4 style="font-weight: bold;">FASILITAS</h4>
                         <hr class="ml-3">
                     </div>
                 </div>
@@ -38,34 +39,34 @@
                 <div class="row text-center">
                     <div class="col-md ml-3">
                         <div class="card">
-                            <div class="card-header" style="font-weight: bold; font-size: 20px;">
+                            <div class="card-header">
                                 LABORATORIUM 
                             </div>
-                            <img src=" img/labsains.jpg" class="card-img-top" alt="gambar">
+                            <img src="/img/labsains.jpg" class="card-img-top" alt="gambar">
                         </div>
                     </div>
 
                     <div class="col-md ml-3">
                         <div class="card">
-                            <div class="card-header" style="font-weight: bold; font-size: 20px;">
+                            <div class="card-header">
                                 LAB KOMPUTER
                             </div>
-                            <img src=" img/labsains.jpg" class="card-img-top" alt="gambar">
+                            <img src="/img/labsains.jpg" class="card-img-top" alt="gambar">
                         </div>
                     </div>
 
                     <div class="col-md ml-3">
                         <div class="card">
-                            <div class="card-header" style="font-weight: bold; font-size: 20px;">
+                            <div class="card-header">
                                 PERPUSTAKAAN
                             </div>
-                            <img src=" img/labsains.jpg" class="card-img-top" alt="gambar">
+                            <img src="/img/labsains.jpg" class="card-img-top" alt="gambar">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <br><br><br>
+        {{-- <br><br><br> --}}
         @include('partials.footer_hu')
 
         <!-- ./wrapper -->

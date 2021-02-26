@@ -132,7 +132,7 @@
                                         <img src="/img/form3.png" alt="icon" style="width: 85px;">
                                     </div>
                                     <h5 class="mt-1 text-center" style="color:rgb(255, 255, 255);">Form Pendaftaran
-                                        <a href="/tata_usaha/form_pendaftaran">
+                                        <a href="/hal_pendaftaran/keterangan_siswa">
                                             <i class="fas fa-arrow-circle-right" style="color:rgb(255, 255, 255);"></i>
                                         </a>
                                     </h5>
